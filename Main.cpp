@@ -11,8 +11,8 @@
 
 class Power {
 public:
-	int x;
-	int y;
+	int x = 0;
+	int y = 0;
 
 	void set(int value1, int value2) {
 		x = value1;
