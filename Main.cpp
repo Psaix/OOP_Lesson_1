@@ -14,11 +14,9 @@ public:
 	int x;
 	int y;
 
-	void set() {
-		std::cout << "Input the first number: ";
-		std::cin >> x;
-		std::cout << "Input the second number: ";
-		std::cin >> y;
+	void set(int value1, int value2) {
+		x = value1;
+		y = value2;
 	}
 
 	void calculate() {
@@ -96,7 +94,7 @@ int main()
 //__________________TASK1___________________
 
 	Power check;
-	check.set();
+	check.set(3,4);
 	check.calculate();
 	std::cout << std::endl;
 
